@@ -1,0 +1,23 @@
+# === AI Eye - Lightweight CPU Edition ===
+
+# Core
+fastapi==0.100.0
+uvicorn==0.23.0
+
+# YOLOX (compatible versions)
+yolox==0.3.0
+torch==1.13.1
+torchvision==0.14.1
+
+# Computer Vision
+opencv-python==4.7.0.72
+numpy==1.24.2
+
+# Notifications
+python-telegram-bot==13.7
+
+# Optimization
+onnxruntime==1.14.1
+
+# Utilities
+loguru==0.6.0
