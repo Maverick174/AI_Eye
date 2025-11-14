@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 или вручную:
 
-pip install yolox==0.3.0 fastapi uvicorn opencv-python-headless python-telegram-bot onnxruntime
+pip install fastapi==0.100.0 uvicorn==0.23.0 yolox==0.3.0 torch==1.13.1 torchvision==0.14.1 opencv-python==4.7.0.72 numpy==1.24.2 python-telegram-bot==13.7 onnxruntime==1.14.1 loguru==0.6.0
 
 3. Запуск backend
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
