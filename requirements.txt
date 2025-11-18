@@ -1,0 +1,29 @@
+# === ОКО-Сервис: Production Dependencies (for Raspberry Pi) ===
+
+# --- Core ML & PyTorch ---
+torch==2.0.1
+torchvision==0.15.2
+
+# --- YOLOX Specific ---
+loguru==0.7.2
+tqdm==4.66.1
+pycocotools==2.0.7
+
+# --- Video & Image ---
+opencv-python-headless==4.9.0.80
+pillow==10.0.0
+
+# --- Backend API ---
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+
+# --- Notifications ---
+python-telegram-bot==21.3
+
+# --- Optimization ---
+onnxruntime==1.16.0
+
+# --- Utilities ---
+numpy==1.24.3
+pydantic==2.8.2
+python-dotenv==1.0.1

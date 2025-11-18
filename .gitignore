@@ -1,0 +1,58 @@
+﻿# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+
+# Models (тяжелые файлы)
+models/*.pt
+models/*.pth
+models/*.onnx
+models/*.weights
+!models/.gitkeep
+
+# Data (тестовые видео/изображения)
+data/*.mp4
+data/*.avi
+data/*.mov
+data/*.jpg
+data/*.png
+data/*.jpeg
+!data/.gitkeep
+
+# Logs
+*.log
+logs/*.log
+!logs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Temporary files
+*.tmp
+*.temp
